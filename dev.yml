@@ -12,3 +12,5 @@
          
     - name: task3
       file: path=/tmp/abc2 state=directory
+    - name: import playbook
+      import_tasks: second.yml
