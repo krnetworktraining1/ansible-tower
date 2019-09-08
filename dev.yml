@@ -4,3 +4,8 @@
     - copy:
          content: "Hello World\n"
          dest: /tmp/report
+
+    - name: task2 
+      file:
+         path: /tmp/abc
+         state: directory
