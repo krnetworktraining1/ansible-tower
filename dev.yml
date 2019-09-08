@@ -1,0 +1,6 @@
+- name: example tower integration
+  hosts: webserver
+  tasks:
+    - copy:
+         content: "Hello World\n"
+         dest: /tmp/report
