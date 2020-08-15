@@ -9,3 +9,6 @@
       file:
          path: /tmp/abc
          state: directory
+         
+    - name: task3
+      file: path=/tmp/abc2 state=directory
