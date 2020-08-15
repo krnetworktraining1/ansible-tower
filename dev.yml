@@ -1,5 +1,5 @@
 - name: example tower integration
-  hosts: webserver
+  hosts: webservers
   tasks:
     - copy:
          content: "Hello World\n"
